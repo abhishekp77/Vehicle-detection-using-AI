@@ -4,13 +4,11 @@ import csv
 import time
 import os
 
-# ---------------------------
-# Setup
-# ---------------------------
+
 SOURCE = "traffic2.mp4"  # Change to 0 for webcam
 OUTPUT_VIDEO = "output_traffic.avi"
 
-# Load YOLOv8 small model
+
 model = YOLO("yolov8s.pt")
 
 # Open video source
